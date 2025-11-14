@@ -74,6 +74,17 @@ Each JSONL record contains:
 
 Node.js version 18 or higher
 
+# 📌 Edge Cases Handled
+
+| Edge Case | Handling |
+|----------|----------|
+| API returns 0 issues | Stop pagination |
+| Comments API fails | Continue without comments |
+| Missing fields | Safe fallbacks |
+| Script interrupts | Resume from last checkpoint |
+| Malformed data | Skipped with guard checks |
+
+
 ## Dependencies
 
 - `axios` - HTTP client for API requests
