@@ -1,5 +1,4 @@
 # WEB SCRAPING TUTOR ASSIGNMENT
-# JIRA Data Extractor
 
 A lightweight Node.js tool for extracting issue data from Apache's public JIRA instance and converting it to JSONL format.
 
